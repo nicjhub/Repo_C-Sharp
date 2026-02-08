@@ -10,10 +10,12 @@
 >### Configuración de un repositorio en GitHub
 
 ## 1. Clona el repo que desees:
->Tienes que copiar el URL de alguna de las 3 opciones dependiendo de la configuración del github que tengas en la computadora
+>Tienes que copiar el URL de alguna de las 3 opciones dependiendo de la configuración del github que tengas en la computadora.
+>
 ><img width="550" height="366" alt="image" src="https://github.com/user-attachments/assets/ce04ba7f-e4a9-4403-84ad-5420aec997d3" />
 
 >Corre este comando desde la terminal de la computadora en la ruta que desees guardar el repositorio.
+>
 >🗒️Nota: Puedes crearte una carpeta llamada `repos` y ahi guardar todos los repositorios(proyectos) que vayas haciendo.
 ```
 git clone https://github.com/reish-fdz-jnz/FundamentosC-Sharp.git
@@ -29,12 +31,12 @@ git clone https://github.com/reish-fdz-jnz/FundamentosC-Sharp.git
 ><img width="387" height="337" alt="image" src="https://github.com/user-attachments/assets/74bc4bc2-0d6e-4d3c-9738-e8c89635359f" />
 
 #### En la terminal de tu computadora, desde la ruta donde clonaste anteriormente el repositorio, sigue los siguientes pasos:
-> Ver los repositorios remotos
+> Ver los repositorios remotos.
 ```
 git remote -v
 ```
 
-> Agregar el fork como repositorio remoto
+> Agregar el fork como repositorio remoto.
 ```
 git remote add --track <nombre-del-repo> <branch-principal> <REPO-URL>
 ```
